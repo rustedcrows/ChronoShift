@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 365px;
+}
+
+body {
+    background-color:white;
+    color: #A493F1;
+}
+nav ul {
+    
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    /* float: left; */
+    padding: 8px;
+    
+}
+
+li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    border-right: solid 1px black;
+
+}
+
+li:last-child a {
+    border: none;
+}
+
+
+li a:hover {
+    background-color: #E2ECE9;
+}
+
+.active{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em;
+} 
+
+.halves article{
+    max-width:48%;
+    border-radius: 1rem 0 1 rem;
+    background-color: #DFE7FD;
+    border: solid 1px darkgray;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.33);
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row.full{
+    width: 100vw;
+}
+
+.quarters article{
+    width: 23%;
+}
+
+.thirds article{
+    width: 30%;
+}
+
+.twothirds article:first-child {
+    width: 64%;
+}
+
+.twothirds article:last-child {
+    width: 32%;
+}
+
+.halves article {
+   width: 48% 
+}
+
+.cards article,
+.card{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+    border: solid 1px darkgray;
+    background-color: #DFE7FD;
+}
+
+.cards article img,
+.card img{
+    border: none;
+}
+
+.cards article h2,
+.cards article h3,
+cards article p,
+.card h2,
+.card h3,
+.card p {
+padding: 0 1rem;
+}
+
+.cards article a, 
+.card a{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.cards .button,
+.card .button {
+    border-radius: 1rem 0rem;
+}

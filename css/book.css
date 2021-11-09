@@ -1,0 +1,58 @@
+header{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 365px;
+}
+
+body {
+    background-color:white;
+    color: #A493F1;
+}
+nav ul {
+    
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    /* float: left; */
+    padding: 8px;
+    
+}
+
+li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    border-right: solid 1px black;
+
+}
+
+li:last-child a {
+    border: none;
+}
+
+
+li a:hover {
+    background-color: #E2ECE9;
+}
+
+.active{
+    background-color: ghostwhite;
+    color: black;
+}
+
+form input {
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    background-color: darkgray;
+}
+
+select {
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    background-color: darkgray;
+}
